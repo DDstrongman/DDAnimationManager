@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'AnimationManager_Example' do
+  pod 'AnimationManager', :path => '../'
+
+  target 'AnimationManager_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+  end
+end
