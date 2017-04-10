@@ -1,0 +1,6 @@
+framework module AnimationManager {
+  umbrella header "AnimationManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
